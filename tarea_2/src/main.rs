@@ -1,7 +1,7 @@
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 
-const DIR_PATH: &str = "/Users/apocalix/vscode/rust/Tarea2/src/example.txt";
+const DIR_PATH: &str = "/Users/apocalix/Documents/GitHub/rust-software-dev/tarea_2/src/example.txt";
 
 fn main() {
     let file = File::open(DIR_PATH).expect("File not found");
